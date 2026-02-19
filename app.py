@@ -62,6 +62,3 @@ if st.button("🚀 AI야, 블로그 기획해줘! (Click)", use_container_width=
                 st.markdown(response.text)
             except Exception as e:
                 st.error(f"에러가 발생했습니다: {e}")
-
-streamlit
-google-generativeai
